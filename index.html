@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Temperatura</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Conversor de Temperatura</h1>
+</header>
+
+<main>
+  <section class="container">
+    <h2>Digite a Temperatura em Celsius e escolha uma conversão:</h2>
+    <hr>
+    <label for="temperatura">Insira a temperatura em graus Celsius</label><br>
+    <input type="number" id="temperatura" placeholder="valor em graus º"><br>
+    <button type="submit" onclick="ConverterParaKelvin()">kelvin</button><br>
+    <button type="submit" onclick="ConverterParaFahrenheit()">fahrenheit</button>
+    <hr>
+    <h3 id="valorConvertido"></h3>
+  </section>
+</main>
+<script src="javascript.js"></script>
+</body>
+</html>
